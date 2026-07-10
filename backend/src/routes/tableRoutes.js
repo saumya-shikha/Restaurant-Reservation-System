@@ -1,6 +1,6 @@
 const express = require('express');
 const { body } = require('express-validator');
-const tableController = require('../controllers/tableController');
+const tableController = require('../Controllers/tableController');
 const protect = require('../middleware/auth');
 const { requireRole } = require('../middleware/roleGuard');
 const validate = require('../middleware/validate');
