@@ -13,11 +13,10 @@ const app = express();
 // Connect Database
 connectDB();
 
-// CORS Settings
-const allowedOrigin = process.env.CORS_ORIGIN || 'http://localhost:5173';
+// CORS Settings - Fixed to allow all origins
 app.use(cors({
-  origin: allowedOrigin,
-  credentials: true
+    origin: '*',
+    credentials: true
 }));
 
 app.use(express.json());
@@ -32,5 +31,5 @@ app.use(errorHandler);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Server executing operations efficiently on port ${PORT}`);
+    console.log(`Server executing operations efficiently on port ${PORT}`);
 });
