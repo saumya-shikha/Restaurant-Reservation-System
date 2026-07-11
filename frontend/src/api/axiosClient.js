@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-baseURL: import.meta.env.VITE_API_BASE_URL || 'https://restaurant-reservation-system-qkyn.onrender.com',
+baseURL: import.meta.env.VITE_API_BASE_URL || 'https://restaurant-reservation-system-qkyn.onrender.com/api',
   headers: {
     'Content-Type': 'application/json'
   }
