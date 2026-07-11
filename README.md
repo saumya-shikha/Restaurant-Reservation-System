@@ -3,7 +3,7 @@
 A full-stack Restaurant Reservation Management System built using the MERN stack (React, Node.js, Express, MongoDB) featuring Role-Based Access Control (RBAC), double-booking prevention, and automated table capacity validation.
 
 ## 🔗 Live Deployment Links
-* **Frontend (UI):** restaurant-reservation-system-pink.vercel.app
+* **Frontend (UI):** https://restaurant-reservation-system-pink.vercel.app
 * **Backend (API):** https://restaurant-reservation-system-qkyn.onrender.com
 
 ---
